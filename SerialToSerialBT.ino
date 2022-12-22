@@ -6,8 +6,9 @@
 //
 // The code displays the received data and controls the on board LED
 //
-// Connect your device to ESP32test
+// Connect your device from the Bluetooth Setings - ESP32test
 // Use Serial Bluetooth Terminal app.
+// Obtain from the Google Play Store https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal
 
 // this library forms part of the ESP32 Boards Manager file
 #include "BluetoothSerial.h"

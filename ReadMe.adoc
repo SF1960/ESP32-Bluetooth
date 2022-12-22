@@ -11,6 +11,16 @@ It can also control the INBUILT_LED
 The code needs to receive text to control the LED
 Send Led On, Led Off, Toggle to the ESP32 to control the LED
 
+== Boards: Verified Boards
+This code works with:-
+ESP32 WROOM
+
+This code should work with all ESP32-based boards
+
+== Configurations
+The INBUILT attribute may be different on other baord typre
+The ESP32 WROOM uses the WiFi module to control on-board LEDS. Ensure WifiNINA library is included
+
 == Step 1: Code Installation
 Upload the code to the ESP32 by connecting a USB cable between the device and Project
 When the PC is attempting to connect you may need to press the BOOT button a number of times

@@ -71,6 +71,13 @@ if (text == "Led On"){ BT = LED_ON; }       // set BT to 0
 Press the newly named function keys to send the data to the board.
 The code will turn on and off the on-board LED and print to the monitor.
 
+Set the constants 
+```
+enum BT {LED_ON, LED_OFF, TOGGLE, UNDEFINED };   
+int BT = LED_OFF;
+```
+
+
 === Step 5: Assemble the circuit
 
 No assembly required

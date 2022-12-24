@@ -58,6 +58,15 @@ Long press on a function key and change the attributes.
 | M3 | Toggle | Toggle
 |===
 
+Code that receive data and set variables 
+```
+if (text == "Led On"){ BT = LED_ON; }       // set BT to 0
+    else if (text == "Led Off"){ BT = LED_OFF; }// set BT to 1
+    else if (text == "Toggle"){ BT = TOGGLE; }  // set BT to 2
+    else { BT = UNDEFINED; }
+
+```
+
 === Step 4: Function
 Press the newly named function keys to send the data to the board.
 The code will turn on and off the on-board LED and print to the monitor.

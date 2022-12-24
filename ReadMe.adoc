@@ -22,8 +22,8 @@ This code works with:-
 Some basic Git commands are:
 ```
 git status
-git add
-git commit
+
+int LED_BUILTIN = 2;
 ```
 
 === Configurations:

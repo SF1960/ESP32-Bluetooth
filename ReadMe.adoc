@@ -19,9 +19,12 @@ This code works with:-
 
 > All other ESP32 Boards 
 
-Some basic Git commands are:
+The Bluetooth Library and the integer value
+that may need changing to control the
+onboard LED.
+
 ```
-git status
+#include "BluetoothSerial.h"
 
 int LED_BUILTIN = 2;
 ```
